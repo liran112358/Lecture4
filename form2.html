@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+    <title>Form Demo</title>
+</head>
+<body>
+    <br />
+    <form action="">
+        
+        <label for="firstname"><b>First name:</b> </label>
+        <input type="text" id="firstname" name="firstname" required/>
+        <br /><br />
+        <label for="lastname"><b>Last name:</b> &nbsp; </label>
+        <input type="text" id="lastname" name="lastname" required/>        
+        <br /><br />
+        <label for="email"><b>email:</b> </label>
+        <input type="email" id="email" name="email" required/>
+        <br /><br />
+        <label for="password"><b>Password:</b> </label>
+        <input type="password" id="password" name="password" required/>
+        <br /><br />
+        <label for="quantity"><b>Grade:</b> </label>
+        <input type="number" id="quantity" name="quantity" min="1" max="100"  required/>
+        <br /><br />
+        <label for="birthday"><b>Birthday:</b> </label>
+        <input type="date" id="birthday" name="birthday" required/>
+        <br /><br />
+        <label for="favcolor">Select your favorite color:</label>
+        <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+        <br /><br />
+        <label for="favfiletype">Choose a file type that you like:</label>
+        <select id="favfiletype" name="favfiletype" form="favfiletype" required>
+          <option value="volvo">HTML</option>
+          <option value="saab">JS</option>
+          <option value="opel">CSS</option>
+        </select>
+        <br /><br />
+        <input type="checkbox" id="vegan" name="vegan" value="yes" required>
+        <label for="vegan1"> I am vegan</label><br>
+        <input type="checkbox" id="vegan2" name="vegan" value="no" required>
+        <label for="vegan2"> I am not a vegan</label><br>
+        <br /><br />
+        <p>Please select your favorite animal:</p>
+        <input type="radio" id="animal1" name="animal1" value="dog" required>
+        <label for="animal1">Dog</label><br>
+        <input type="radio" id="aniaml2" name="animal2" value="cat" required>
+        <label for="animal2">Cat</label><br>  
+        <input type="radio" id="animal3" name="aniaml3" value="fish" required>
+        <label for="animal3">Fish</label><br><br>
+        <br /><br />
+        
+        <input type="submit">
+        <button type="reset" >clear </button>
+    </form>
+    
+</body>
+</html>
